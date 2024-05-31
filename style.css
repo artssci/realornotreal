@@ -1,0 +1,18 @@
+body { 
+  margin: 0px;
+  padding: 0px;
+  background: black;
+}
+
+.slide-container {
+    position: relative; /* Ensure absolute positioning is relative to this container */
+    width: 100%; /* Adjust width as needed */
+}
+
+.slide {
+    position: absolute;
+    top: 0; /* Initial position for the first slide */
+    left: 0;
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+}
